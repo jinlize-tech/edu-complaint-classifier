@@ -1,0 +1,18 @@
+{
+  "product_id": "JLZ-EDU-SK-050",
+  "repository_name": "edu-complaint-classifier",
+  "product_type": "Skill",
+  "version": "1.0.0",
+  "package_path": "dist/edu-complaint-classifier-v1.0.0.zip",
+  "sha256": "E5F1987EED48ED5FD691DACEB06F1A6F078D741B2BB71BA1F5347E5901874021",
+  "bytes": 4845,
+  "entries": [
+    "edu-complaint-classifier/SKILL.md",
+    "edu-complaint-classifier/references/DOMAIN_GUIDE.md",
+    "edu-complaint-classifier/references/EXAMPLES.md",
+    "edu-complaint-classifier/templates/OUTPUT_TEMPLATE.md"
+  ],
+  "built_at": "2026-11-06T22:41:19.7549875+08:00",
+  "status": "PACKAGE_READY",
+  "workbuddy_validation": "NOT_VERIFIED"
+}
