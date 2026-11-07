@@ -6,19 +6,38 @@
   "repository_name": "edu-complaint-classifier",
   "product_type": "Skill",
   "category": "05 家校服务中心",
-  "version": "1.0.0",
-  "status": "PACKAGE_READY",
-  "workbuddy_validation": "NOT_VERIFIED",
+  "version": "1.0.1",
+  "previous_version": "1.0.0",
+  "g5_status": "G5_STRENGTHENED",
+  "status": "G9_PRE_RELEASE_ACCEPTED",
+  "package_state": "GITHUB_PACKAGE_PRE_RELEASE_READY",
+  "runtime_status": "NOT_RUNTIME_VERIFIED",
+  "workbuddy_validation": "WORKBUDDY_VALIDATION_NOT_IN_SCOPE",
   "license": "Apache-2.0",
   "baseline_tag": "education-product-baseline-v1.0.0",
-  "package_path": "dist/edu-complaint-classifier-v1.0.0.zip",
+  "baseline_commit": "4193e7aa79d1807dcfdd1a24e0b22716215a91fc",
+  "package_path": "dist/edu-complaint-classifier-v1.0.1.zip",
+  "previous_package_path": "dist/edu-complaint-classifier-v1.0.0.zip",
+  "previous_package_sha256": "E5F1987EED48ED5FD691DACEB06F1A6F078D741B2BB71BA1F5347E5901874021",
   "calculator": false,
   "core_input": "投诉原话、发生环节、涉及人员、时间、诉求、证据状态和敏感信息",
   "main_output": "问题分类、严重度、事实与推断分离、升级路径、需核实项和记录摘要",
+  "main_output_fields": [
+    "问题分类",
+    "严重度",
+    "事实与推断分离",
+    "升级路径",
+    "需核实项和记录摘要"
+  ],
   "package_entries": [
     "edu-complaint-classifier/SKILL.md",
     "edu-complaint-classifier/references/DOMAIN_GUIDE.md",
     "edu-complaint-classifier/references/EXAMPLES.md",
-    "edu-complaint-classifier/templates/OUTPUT_TEMPLATE.md"
+    "edu-complaint-classifier/templates/OUTPUT_TEMPLATE.md",
+    "edu-complaint-classifier/README.md",
+    "edu-complaint-classifier/USAGE.md",
+    "edu-complaint-classifier/LICENSE",
+    "edu-complaint-classifier/THIRD_PARTY_NOTICES.md",
+    "edu-complaint-classifier/scripts/validate_input.js"
   ]
 }
